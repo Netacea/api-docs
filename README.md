@@ -28,7 +28,7 @@ Returns reporting data/dashboards for domains
 
 See documentation [here](reporting/reporting-api.md)
 
-#### Reporting API
+#### Domain API
 
 Allows for Vendor integration with accounts and domains
 
