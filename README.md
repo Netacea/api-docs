@@ -20,27 +20,16 @@ curl --header "X-Vendor-Api-Key: 9ca82657-e815-45df-b7eb-722b55267481" https://r
 
 A valid API Key will be provided by netacea, please contact netacea for more information.
 
-## Reporting API (Alpha)
+API Keys can be used to access all netacea apis with permission based access
 
-**Please Note: the Reporting API is currently available as alpha a mock only, changes may still occur**
+#### Reporting API
 
-Alpha domain URL (Mock only):
+Returns reporting data/dashboards for domains
 
-```
-https://reporting.api.dev-red.netacea.cloud
-```
+See documentation [here](reporting/reporting-api.md)
 
-### Data Endpoints
+#### Reporting API
 
-Endpoints for accessing data:
+Allows for Vendor integration with accounts and domains
 
-**Please Note: To embed a dashboard the request domain must first be added to the list of approved domains. For more information [see here](reporting/approved-domains.md)**
-
-* [Audit Trail](reporting/audit-trail.md) : `GET /domain/{domainID}/audit-trail`
-* [Attacks](reporting/attacks.md) : `GET /domain/{domainID}/attacks`
-* Attack: **Coming Soon**
-
-### QuickSight Embed Endpoints
-
-* [Dashboards](reporting/dashboards.md) : `GET /domain/{domainID}/dashboards`
-* [Dashboard Embed](reporting/dashboard-embed.md) : `GET /domain/{domainID}/dashboards/{dashboardID}`
+**Coming Soon**
