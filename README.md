@@ -8,13 +8,15 @@ Closed endpoints require a valid api kay to be included in the header of the req
 
 ### Vendor API Key
 
-For Vendor access, a valid Vendor Api Key should be provided in the header of a request. CURL example:
+For Vendor access, a valid Vendor Api Key should be provided in the header of a request.
 
 ```
 X-Vendor-Api-Key
 ```
 
-```
+**CURL example:**
+
+```bash
 curl --header "X-Vendor-Api-Key: 9ca82657-e815-45df-b7eb-722b55267481" https://reporting.api.dev-red.netacea.cloud/domain/e96e6ef1-6763-4bc9-b2a1-0a038c54a235/dashboards
 ```
 
