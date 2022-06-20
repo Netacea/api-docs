@@ -25,7 +25,7 @@ Returns an array of the latest 100 lines of audit trail data for a given domain
         "timestamp": "2022-06-09T09:00:05.042Z",
         "user": "Automated Policy"
     }
-}
+]
 ```
 
 ## Notes
