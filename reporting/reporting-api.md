@@ -206,3 +206,4 @@ Returns a embed url for a QuickSight dashboard available for a given domain
 ### Notes
 
 * An vanilla javascript example of embedding can be found [here](dashboard-embed.html)
+* To embed a dashboard a valid HTTPS domain must be used and these must be added to QuickSight. Please request to add a domain by contacting netacea. Domains can be added to auto include subdomains
