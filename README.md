@@ -15,14 +15,14 @@ X-Vendor-Api-Key
 ```
 
 ```
-curl --header "X-Vendor-Api-Key: 9ca82657-e815-45df-b7eb-722b55267481" https://reporting.api.dev-red.netacea.cloud/domain/{domainID}/dashboards
+curl --header "X-Vendor-Api-Key: 9ca82657-e815-45df-b7eb-722b55267481" https://reporting.api.dev-red.netacea.cloud/domain/e96e6ef1-6763-4bc9-b2a1-0a038c54a235/dashboards
 ```
 
 A valid API Key will be provided by netacea, please contact netacea for more information.
 
 ## Reporting API (Alpha)
 
-**Please Note the Following APIs are available in alpha only**
+**Please Note: the Reporting API is currently available as alpha a mock only, changes may still occur**
 
 Alpha domain URL (Mock only):
 
