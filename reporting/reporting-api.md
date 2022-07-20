@@ -34,7 +34,7 @@ A valid API Key will be provided by netacea, please contact netacea for more inf
 
 ### Endpoints for accessing data:
 
-* **Coming Soon** [Audit Trail](#audit-trail) : `GET /domains/{domainID}/audit-trail`
+* [Audit Trail](#audit-trail) : `GET /domains/{domainID}/audit-trail`
 * [Attacks](#attacks) : `GET /domains/{domainID}/attacks`
 * [Attack](#attack) : `GET /domains/{domainID}/attacks/{attackID}`
 
@@ -45,7 +45,7 @@ A valid API Key will be provided by netacea, please contact netacea for more inf
 
 ---
 
-## Audit Trail (Coming Soon)
+## Audit Trail
 
 Returns an array of the latest 100 lines of audit trail data for a given domain
 
@@ -76,8 +76,6 @@ Returns an array of the latest 100 lines of audit trail data for a given domain
 ```
 
 ### Notes
-
-* **The endpoint is in production and will be available soon**
 
 ---
 
