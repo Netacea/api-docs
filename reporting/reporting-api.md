@@ -34,9 +34,9 @@ A valid API Key will be provided by netacea, please contact netacea for more inf
 
 ### Endpoints for accessing data:
 
-* [Audit Trail](#audit-trail) : `GET /domains/{domainID}/audit-trail`
+* **Coming Soon** [Audit Trail](#audit-trail) : `GET /domains/{domainID}/audit-trail`
 * [Attacks](#attacks) : `GET /domains/{domainID}/attacks`
-* **Coming Soon** [Attack](#attack) : `GET /domains/{domainID}/attacks/{attackID}`
+* [Attack](#attack) : `GET /domains/{domainID}/attacks/{attackID}`
 
 ### QuickSight Embed Endpoints
 
@@ -45,7 +45,7 @@ A valid API Key will be provided by netacea, please contact netacea for more inf
 
 ---
 
-## Audit Trail
+## Audit Trail (Coming Soon)
 
 Returns an array of the latest 100 lines of audit trail data for a given domain
 
@@ -117,8 +117,6 @@ Returns an array of the latest 100 lines of attack data for a given domain
 ---
 
 ## Attack
-
-**Coming Soon**
 
 Returns an object with data related to a single attack
 
