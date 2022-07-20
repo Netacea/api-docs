@@ -45,7 +45,7 @@ A valid API Key will be provided by netacea, please contact netacea for more inf
 
 ---
 
-## Audit Trail
+## Audit Trail (Coming Soon)
 
 Returns an array of the latest 100 lines of audit trail data for a given domain
 
