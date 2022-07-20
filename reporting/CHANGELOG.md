@@ -11,6 +11,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
   
 - `/domain/` to `/domains/` This change has been made to ensure all of our endpoints follow a generic plural pattern
-- Attack `label` to `type` On the `domains/{domainID}/attacks` and `/domains/{domainID}/attacks/{attackID}` endpoints the attack label was previously returned which should have been mapped to a type. The type is now returned instead of the label
+- Attack `label` to `type` On the `domains/{domainID}/attacks` and `/domains/{domainID}/attacks/{attackID}` endpoints the attack `label` was previously returned which should have been mapped to a `type`. The `type` is now returned instead of the `label`
 
 ### Fixed
