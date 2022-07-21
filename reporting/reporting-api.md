@@ -36,7 +36,15 @@ A valid API Key will be provided by netacea, please contact netacea for more inf
 
 * [Audit Trail](#audit-trail) : `GET /domains/{domainID}/audit-trail`
 * [Attacks](#attacks) : `GET /domains/{domainID}/attacks`
-* [Attack](#attack) : `GET /domains/{domainID}/attacks/{attackID}`
+* [Attack](#attack) : `GET /domains/{domainID}/attacks/`
+* [Actioned - Threat Visitor](#actioned) : `GET /domains/{domainID}/actioned/threat-visitor`
+* [Actioned - Threat IP Address](#actioned) : `GET /domains/{domainID}/actioned/threat-ip-address`
+* [Actioned - Threat User Agent](#actioned) : `GET /domains/{domainID}/actioned/threat-user-agent`
+* [Actioned - Threat Data Centre](#actioned) : `GET /domains/{domainID}/actioned/threat-data-centre`
+* [Actioned - Trusted Visitor](#actioned) : `GET /domains/{domainID}/actioned/trusted-visitor`
+* [Actioned - Trusted IP Address](#actioned) : `GET /domains/{domainID}/actioned/trusted-ip-address`
+* [Actioned - Trusted User Agent](#actioned) : `GET /domains/{domainID}/actioned/trusted-user-agent`
+* [Actioned - Trusted Data Centre](#actioned) : `GET /domains/{domainID}/actioned/trusted-data-centre`
 
 ### QuickSight Embed Endpoints
 
@@ -311,9 +319,13 @@ Returns an object with data related to a single attack
 
 ---
 
-## Actioned (Coming Soon)
+## Actioned
 
-This endpoint will return data for the following:
+**Endpoints are in Alpha state**
+
+This endpoint will return data based on the verb provided.
+
+Each endpoint will return data in the same format, for the following areas:
 
 - Threat Visitor
 - Threat IP Address
@@ -324,7 +336,21 @@ This endpoint will return data for the following:
 - Trusted User Agent
 - Trusted Data Centre
 
-<!-- **URL** : `/domains/{domainID}/attacks`
+**URL** : `/domains/{domainID}/actioned/threat-visitor`
+
+**URL** : `/domains/{domainID}/actioned/threat-ip-address`
+
+**URL** : `/domains/{domainID}/actioned/threat-user-agent`
+
+**URL** : `/domains/{domainID}/actioned/threat-data-centre`
+
+**URL** : `/domains/{domainID}/actioned/trusted-visitor`
+
+**URL** : `/domains/{domainID}/actioned/trusted-ip-address`
+
+**URL** : `/domains/{domainID}/actioned/trusted-user-agent`
+
+**URL** : `/domains/{domainID}/actioned/trusted-user-agent`
 
 **Method** : `GET`
 
@@ -341,17 +367,21 @@ This endpoint will return data for the following:
 ```json
 [
     {
-        "id": "cdd1f2f1-71ff-4a58-96bf-79e879ec6949",
-        "start_time": "2022-07-18T02:10:00.005Z",
-        "end_time": "2022-07-18T03:10:00.005Z",
-        "total_requests_mitigated": 61301,
-        "total_attack_requests": 65872,
-        "type": "Credential Stuffing"
+        "value": "10.92.119.52",
+        "reason": "Automatic Scraper Commonality",
+        "number_of_requests": 0,
+        "average_requests_per_second": "0.00",
+        "unique_sessions": 0,
+        "action": "Blocked",
+        "created_date": "2022-07-21T00:31:41.027Z",
+        "created_by": "Automated Behavioural Policy"
     },
 ]
 ```
 
-### Notes -->
+### Notes
+
+* This endpoint is in alpha and is subject to change
 
 ---
 
