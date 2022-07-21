@@ -323,7 +323,7 @@ Returns an object with data related to a single attack
 
 **Endpoints are in Alpha state**
 
-This endpoint will return data based on the verb provided.
+Returns an array of the latest 100 lines of actioned data for a the verb provided, for a given domain
 
 Each endpoint will return data in the same format, for the following areas:
 
