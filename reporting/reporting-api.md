@@ -321,7 +321,7 @@ Returns an object with data related to a single attack
 
 ## Actioned
 
-**Alpha**
+**Endpoints are in Alpha state**
 
 This endpoint will return data based on the verb provided.
 
@@ -373,7 +373,8 @@ Each endpoint will return data in the same format, for the following areas:
         "average_requests_per_second": "0.00",
         "unique_sessions": 0,
         "action": "Blocked",
-        "created_date": "2022-07-21T00:31:41.027Z"
+        "created_date": "2022-07-21T00:31:41.027Z",
+        "created_by": "Automated Behavioural Policy"
     },
 ]
 ```
