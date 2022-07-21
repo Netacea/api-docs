@@ -350,7 +350,7 @@ Each endpoint will return data in the same format, for the following areas:
 
 **URL** : `/domains/{domainID}/actioned/trusted-user-agent`
 
-**URL** : `/domains/{domainID}/actioned/trusted-user-agent`
+**URL** : `/domains/{domainID}/actioned/trusted-data-centre`
 
 **Method** : `GET`
 
