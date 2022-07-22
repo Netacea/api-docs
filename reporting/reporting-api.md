@@ -369,9 +369,6 @@ Each endpoint will return data in the same format, for the following areas:
     {
         "value": "10.92.119.52",
         "reason": "Automatic Scraper Commonality",
-        "number_of_requests": 0,
-        "average_requests_per_second": "0.00",
-        "unique_sessions": 0,
         "action": "Blocked",
         "created_date": "2022-07-21T00:31:41.027Z",
         "created_by": "Automated Behavioural Policy"
